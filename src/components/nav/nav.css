@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+
+nav {
+    display: block;
+    padding: 2.5rem 8rem 1rem 8rem;
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+nav a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.4rem;
+}
+
+
+nav a.active {
+    color: var(--color-white);
+    background: var(--color-bg-variant);
+}
+
+nav h1 {
+    font-family: 'League Script', cursive;
+    display: inline-block;
+    width: 70%;
+}
