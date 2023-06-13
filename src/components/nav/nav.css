@@ -15,10 +15,10 @@ nav {
 nav a {
     background: transparent;
     padding: 0.5rem;
-    border-radius: 50%;
     display: flex;
     color: var(--color-light);
     font-size: 1.4rem;
+    border-radius: 50%;
 }
 
 
@@ -33,17 +33,65 @@ nav h1 {
     width: 70%;
 }
 
+.dropdown {
+    position: relative;
+    display: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-light);
+    padding: 1rem;
+    z-index: 1;
+    border-radius: 5%;
+  }
+
+  .dropdown-content a {
+    display: block;
+    color: var(--color-bg);
+    font-size: .7rem;
+    border-radius: 50%;
+    align-items: center;
+
+  }
+  
+  .dropdown-content a.active {
+    color: var(--color-white);
+    background-color: var(--color-bg);
+    border-radius: 10%;
+}
+
+  
+.dropdown-content a:hover {
+    color: var(--color-white);
+    background-color: var(--color-bg);
+    border-radius: 10%;
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 /* medium devices media queries*/
 @media screen and (max-width: 1024px) {
     nav a  {
        display: none;
     }
+
+    .dropdown  {
+        display: inline-block;
+     }
   }
   
 /* small devices media queries*/
 @media screen and (max-width: 600px) {
     nav a  {
         display: none;
+     }
+
+     .dropdown  {
+        display: inline-block;
      }
    
   }

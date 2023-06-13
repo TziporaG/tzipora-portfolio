@@ -1,6 +1,5 @@
 import React from "react";
-import { BiBook } from "react-icons/bi";
-import { MdWorkOutline } from "react-icons/md";
+import { RxHamburgerMenu } from "react-icons/rx";
 import "./nav.css";
 import { useState } from "react";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
@@ -11,16 +10,6 @@ import Tooltip from "@mui/material/Tooltip";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#home");
-
-  let current = "";
-  const sections = document.querySelectorAll("section");
-
-  sections.forEach((section) => {
-    current = section.getAttribute("id");
-    section.addEventListener("mouseover", function () {
-      setActiveNav(`#${current}`);
-    });
-  });
 
   return (
     <nav>
@@ -36,8 +25,8 @@ const Nav = () => {
       </a>
       <a
         href="#skills"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
       >
         <Tooltip title="skills" placement="bottom">
           <BuildOutlinedIcon />
@@ -45,8 +34,8 @@ const Nav = () => {
       </a>
       <a
         href="#projects"
-        onClick={() => setActiveNav("#skills")}
-        className={activeNav === "#skills" ? "active" : ""}
+        onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : ""}
       >
         <Tooltip title="projects" placement="bottom">
           <WorkOutlineOutlinedIcon />
@@ -61,6 +50,40 @@ const Nav = () => {
           <SmsOutlinedIcon />
         </Tooltip>
       </a>
+
+      <div class="dropdown">
+        <RxHamburgerMenu />
+        <div class="dropdown-content">
+          <a
+            href="#home"
+            onClick={() => setActiveNav("#home")}
+            className={activeNav === "#home" ? "active" : ""}
+          >
+            Home
+          </a>
+          <a
+            href="#skills"
+            onClick={() => setActiveNav("#skills")}
+            className={activeNav === "#skills" ? "active" : ""}
+          >
+            Skills
+          </a>
+          <a
+            href="#projects"
+            onClick={() => setActiveNav("#projects")}
+            className={activeNav === "#projects" ? "active" : ""}
+          >
+            Projects
+          </a>
+          <a
+            href="#contact"
+            onClick={() => setActiveNav("#contact")}
+            className={activeNav === "#contact" ? "active" : ""}
+          >
+            Contact
+          </a>
+        </div>
+      </div>
     </nav>
   );
 };
