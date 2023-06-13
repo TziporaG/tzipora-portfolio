@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/tzipora-portfolio/static/css/main.cbeba363.css",
-    "main.js": "/tzipora-portfolio/static/js/main.9446671f.js",
+    "main.js": "/tzipora-portfolio/static/js/main.53051824.js",
     "static/js/787.d7b6b966.chunk.js": "/tzipora-portfolio/static/js/787.d7b6b966.chunk.js",
     "static/media/profilesm.jpg": "/tzipora-portfolio/static/media/profilesm.879e8b795ecd37e2ca6a.jpg",
     "static/media/recipe.jpg": "/tzipora-portfolio/static/media/recipe.2a3a6c7060e1f0505fab.jpg",
-    "static/media/resume.pdf": "/tzipora-portfolio/static/media/resume.c902f6afdeafb1e4a144.pdf",
     "static/media/meme.jpg": "/tzipora-portfolio/static/media/meme.5a66e217061116a1e6dd.jpg",
     "static/media/cpu.jpg": "/tzipora-portfolio/static/media/cpu.31fe731a705371e659ee.jpg",
     "static/media/computer.png": "/tzipora-portfolio/static/media/computer.69f1ad98156a3cca675a.png",
+    "static/media/resume.pdf": "/tzipora-portfolio/static/media/resume.80b2a2ce344256cde977.pdf",
     "index.html": "/tzipora-portfolio/index.html",
     "main.cbeba363.css.map": "/tzipora-portfolio/static/css/main.cbeba363.css.map",
-    "main.9446671f.js.map": "/tzipora-portfolio/static/js/main.9446671f.js.map",
+    "main.53051824.js.map": "/tzipora-portfolio/static/js/main.53051824.js.map",
     "787.d7b6b966.chunk.js.map": "/tzipora-portfolio/static/js/787.d7b6b966.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbeba363.css",
-    "static/js/main.9446671f.js"
+    "static/js/main.53051824.js"
   ]
 }
