@@ -15,35 +15,33 @@ const ButtonsRow = () => {
     <div>
       <div className="header__buttons_row">
         <a href={resume} target="_blank">
-          <Tooltip title="Resume" placement="bottom">
+          {/* <Tooltip title="Resume" placement="bottom">
             <DescriptionIcon fontSize="large" />
-          </Tooltip>
-          {/* <button className="btn">
-            <h2 style={{ display: "inline", paddingRight: "4px" }}>
-              Open Resume
-            </h2>
+          </Tooltip> */}
+          <button className="btn">
+            Open Resume &nbsp;
             <BsArrowUpRight />
-          </button> */}
+          </button>
         </a>
-        <a href="mailto: tziporag93@gmail.com">
-          <Tooltip title="Email" placement="bottom">
+        <a href="#contact">
+          {/* <Tooltip title="Email" placement="bottom">
             <AlternateEmailIcon fontSize="large" />
-          </Tooltip>
-          {/* <button className="btn">
-            <h2>Contact me</h2>
-          </button> */}
+          </Tooltip> */}
+          <button className="btn">Contact me</button>
         </a>
+      </div>
+      <div className="header__buttons_row">
         <a
           href="https://www.linkedin.com/in/tzipora-gutmann-9b3b511ba/"
           target="_blank"
         >
           <Tooltip title="LinkedIn" placement="bottom">
-            <LinkedInIcon fontSize="large" />
+            <LinkedInIcon className="icon" fontSize="large" />
           </Tooltip>
         </a>
         <a href="https://github.com/TziporaG" target="_blank">
           <Tooltip title="Github" placement="bottom">
-            <GitHubIcon fontSize="large" />
+            <GitHubIcon className="icon" fontSize="large" />
           </Tooltip>
         </a>
       </div>

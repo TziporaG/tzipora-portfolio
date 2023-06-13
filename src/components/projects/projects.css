@@ -22,6 +22,7 @@
     border-radius: 1.5rem;
     overflow: hidden;
     height: 16rem;
+    overflow: hidden;
 }
 
 .projects__item h3 {
@@ -32,6 +33,13 @@
     display: flex;
     margin-bottom: 1rem;
     gap: 1rem;
+}
+
+li {
+    list-style: square;
+    margin-left: 1.5rem;
+    color: var(--color-accent)
+
 }
 
 /* medium devices media queries*/

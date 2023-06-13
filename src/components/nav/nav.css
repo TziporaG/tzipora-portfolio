@@ -32,3 +32,19 @@ nav h1 {
     display: inline-block;
     width: 70%;
 }
+
+/* medium devices media queries*/
+@media screen and (max-width: 1024px) {
+    nav a  {
+       display: none;
+    }
+  }
+  
+/* small devices media queries*/
+@media screen and (max-width: 600px) {
+    nav a  {
+        display: none;
+     }
+   
+  }
+  

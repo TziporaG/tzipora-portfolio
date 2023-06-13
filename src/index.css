@@ -6,7 +6,6 @@
   padding: 0;
   border: 0;
   outline: 0;
-  box-sizing: borde-box;
   list-style: none;
   text-decoration: none;
 }
@@ -39,14 +38,12 @@ body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
-  /*background-image: url("./assets/bg.png");*/
 }
 
 section {
   margin-top: 2rem;
   padding: 8rem 8rem 0 8rem;
   line-height: 1.7;
-  height: 80vh;
 }
 
 section > h1 {
@@ -105,6 +102,10 @@ button {
   font-size: .9rem;
 }
 
+.icon {
+  color: var(--color-accent);
+}
+
 button:hover {
   background: var(--color-accent);
   color: var(--color-bg-variant);
@@ -132,9 +133,6 @@ img {
     margin-top: 6rem;
   }
 
-  section {
-    height: 100vh;
-  }
 }
 
 /* small devices media queries*/
@@ -145,9 +143,5 @@ img {
 
   .section > h2{
     margin-bottom: 2rem;
-  }
-
-  section {
-    height: 100vh;
   }
 }
