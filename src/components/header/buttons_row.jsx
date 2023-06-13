@@ -15,18 +15,12 @@ const ButtonsRow = () => {
     <div>
       <div className="header__buttons_row">
         <a href={resume} target="_blank">
-          {/* <Tooltip title="Resume" placement="bottom">
-            <DescriptionIcon fontSize="large" />
-          </Tooltip> */}
           <button className="btn">
             Open Resume &nbsp;
             <BsArrowUpRight />
           </button>
         </a>
         <a href="#contact">
-          {/* <Tooltip title="Email" placement="bottom">
-            <AlternateEmailIcon fontSize="large" />
-          </Tooltip> */}
           <button className="btn">Contact me</button>
         </a>
       </div>

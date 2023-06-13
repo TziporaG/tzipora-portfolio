@@ -2,7 +2,6 @@ import React from "react";
 import "./header.css";
 import ButtonsRow from "./buttons_row";
 import computer_img from "../../assets/computer.png";
-import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 const Header = () => {
   return (
