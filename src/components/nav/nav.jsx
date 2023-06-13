@@ -11,6 +11,17 @@ import Tooltip from "@mui/material/Tooltip";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#home");
+
+  let current = "";
+  const sections = document.querySelectorAll("section");
+
+  sections.forEach((section) => {
+    current = section.getAttribute("id");
+    section.addEventListener("mouseover", function () {
+      setActiveNav(`#${current}`);
+    });
+  });
+
   return (
     <nav>
       <h1>Tzipora Gutmann</h1>
