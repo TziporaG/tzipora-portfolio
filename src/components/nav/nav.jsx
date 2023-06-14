@@ -1,7 +1,6 @@
-import React from "react";
+import { React, useState, useEffect, useRef } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import "./nav.css";
-import { useState } from "react";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import BuildOutlinedIcon from "@mui/icons-material/BuildOutlined";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
@@ -10,6 +9,32 @@ import Tooltip from "@mui/material/Tooltip";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#home");
+  const observer = useRef(null);
+
+  useEffect(() => {
+    //create new instance and pass a callback function
+    observer.current = new IntersectionObserver((entries) => {
+      const visibleSection = entries.find(
+        (entry) => entry.isIntersecting
+      )?.target;
+      //Update state with the visible section ID
+      if (visibleSection) {
+        setActiveNav(`#${visibleSection.id}`);
+      }
+    });
+    //Get sections
+    const sections = document.querySelectorAll("section");
+
+    sections.forEach((section) => {
+      observer.current.observe(section);
+    });
+    //Cleanup function to remove observer
+    return () => {
+      sections.forEach((section) => {
+        observer.current.unobserve(section);
+      });
+    };
+  }, []);
 
   return (
     <nav>
