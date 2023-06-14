@@ -23,7 +23,7 @@ const Nav = () => {
       }
     });
     //Get sections
-    const sections = document.querySelectorAll("section");
+    const sections = document.querySelectorAll("header, section");
 
     sections.forEach((section) => {
       observer.current.observe(section);
