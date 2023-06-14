@@ -11,8 +11,9 @@ const Projects = () => {
       title: "Meme Generator Program",
       github: "https://github.com/shaindel-n/MemeGenerator",
       discription: [
-        "Designed a program in Java that allows a user to take an image saved on their local device and write customized text over it, saving it as a meme.",
-        "Collaborated within a group of three, employing an Agile approach to project management, incorporating 'client' feedback.",
+        "Designed a program in Java that allows a user to upload an image and add a caption, customizing the text position and styling.",
+        "Utilized unique Java packages to manage necessary input/output structure.",
+        "Employed the Agile approach, collaborating within a group of three and implementing peer suggestions along the way.",
       ],
     },
     {
@@ -23,6 +24,7 @@ const Projects = () => {
       demo: "https://tziporag.github.io/React-Final-Project/",
       discription: [
         "Developed a functional website utilizing the React framework and JavaScript. The process included sketching a wireframe, testing API calls using Postman, fetching data from a REST API, and using CSS to enhance the styling.",
+        "Utilized useState, useReducer, useRef, and useContext hooks for state management.",
         "Allows the user to favorite recipes, share recipes via email, generate a weekly menu, and search, filter, read and browse various recipes.",
       ],
     },
