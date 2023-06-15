@@ -47,7 +47,6 @@
     .skills__container{
         grid-template-columns: 1fr;
         gap: 1rem;
-        width: 80%;
         padding: 2rem;
     }
 
@@ -61,7 +60,6 @@
     .skills__container{
         grid-template-columns: 1fr;
         gap: 1rem;
-        width: 100%;
         padding: 2rem 1rem;
     }
 

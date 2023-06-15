@@ -7,13 +7,14 @@ const Projects = () => {
   const projects = [
     {
       id: 0,
-      image: meme,
-      title: "Meme Generator Program",
-      github: "https://github.com/shaindel-n/MemeGenerator",
+      image: cpu,
+      title: "Distributed System Project",
+      github: "https://github.com/shaindel-n/OSTermProject",
       discription: [
-        "Designed a program in Java that allows a user to upload an image and add a caption, customizing the text position and styling.",
-        "Utilized unique Java packages to manage necessary input/output structure.",
-        "Employed the Agile approach, collaborating within a group of three and implementing peer suggestions along the way.",
+        "Developed a simulated distributed system in Java, utilizing client/server socket connections. This system allowed client programs to submit 'jobs' to " +
+          "a central controller, which efficiently managed and distributed these jobs to the most suitable agent for completion.",
+        "Leveraged the power of threads to create a multi-directional communication environment. This allowed concurrent communication " +
+          "to take place simultaneously, enabling efficient coordination between the clients, the controller, and the agents.",
       ],
     },
     {
@@ -30,14 +31,13 @@ const Projects = () => {
     },
     {
       id: 2,
-      image: cpu,
-      title: "Distributed System Project",
-      github: "https://github.com/shaindel-n/OSTermProject",
+      image: meme,
+      title: "Meme Generator Program",
+      github: "https://github.com/shaindel-n/MemeGenerator",
       discription: [
-        "Developed a simulated distributed system in Java, utilizing client/server socket connections. This system allowed client programs to submit 'jobs' to " +
-          "a central controller, which efficiently managed and distributed these jobs to the most suitable agent for completion.",
-        "Leveraged the power of threads to create a multi-directional communication environment. This allowed concurrent communication " +
-          "to take place simultaneously, enabling efficient coordination between the clients, the controller, and the agents.",
+        "Designed a program in Java that allows a user to upload an image and add a caption, customizing the text position and styling.",
+        "Utilized unique Java packages to manage necessary input/output structure.",
+        "Employed the Agile approach, collaborating within a group of three and implementing peer suggestions along the way.",
       ],
     },
   ];

@@ -23,6 +23,11 @@ header {
     gap: 1.5rem;
 }
 
+img {
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+
 /* medium devices media queries*/
 @media screen and (max-width: 1024px) {
     .header__container--col{
