@@ -76,9 +76,9 @@ const Nav = () => {
         </Tooltip>
       </a>
 
-      <div class="dropdown">
+      <div className="dropdown">
         <RxHamburgerMenu />
-        <div class="dropdown-content">
+        <div className="dropdown-content">
           <a
             href="#home"
             onClick={() => setActiveNav("#home")}
