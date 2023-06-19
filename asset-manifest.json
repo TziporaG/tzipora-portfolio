@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tzipora-portfolio/static/css/main.b2cbb3ce.css",
-    "main.js": "/tzipora-portfolio/static/js/main.6fdc4fe7.js",
+    "main.js": "/tzipora-portfolio/static/js/main.c73b9d49.js",
     "static/js/787.d7b6b966.chunk.js": "/tzipora-portfolio/static/js/787.d7b6b966.chunk.js",
     "static/media/profilesm.jpg": "/tzipora-portfolio/static/media/profilesm.879e8b795ecd37e2ca6a.jpg",
     "static/media/recipe.jpg": "/tzipora-portfolio/static/media/recipe.2a3a6c7060e1f0505fab.jpg",
@@ -11,11 +11,11 @@
     "static/media/resume.pdf": "/tzipora-portfolio/static/media/resume.c673cd257ac28df1035d.pdf",
     "index.html": "/tzipora-portfolio/index.html",
     "main.b2cbb3ce.css.map": "/tzipora-portfolio/static/css/main.b2cbb3ce.css.map",
-    "main.6fdc4fe7.js.map": "/tzipora-portfolio/static/js/main.6fdc4fe7.js.map",
+    "main.c73b9d49.js.map": "/tzipora-portfolio/static/js/main.c73b9d49.js.map",
     "787.d7b6b966.chunk.js.map": "/tzipora-portfolio/static/js/787.d7b6b966.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2cbb3ce.css",
-    "static/js/main.6fdc4fe7.js"
+    "static/js/main.c73b9d49.js"
   ]
 }
